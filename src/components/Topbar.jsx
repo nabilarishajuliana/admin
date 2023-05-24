@@ -81,7 +81,7 @@ export default function Topbar({ showNav, setShowNav }) {
                     className="flex hover:bg-blue-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center ml-2"
                   >
                     <ArrowLeftOnRectangleIcon className="h-4 w-4 mr-2" />
-                    <a href="https://news-web-kelompok7-new.vercel.app/">
+                    <a href="https://news2-alpha.vercel.app/">
                       News
                     </a>
                   </Button>
