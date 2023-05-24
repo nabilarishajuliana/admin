@@ -14,9 +14,9 @@ function App() {
         {/* <Route path="/" element={<Dashboard />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<News />} />
-        <Route path="/news/view/:id" element={<ViewNews />} />
-        <Route path="/news/new" element={<AddNews />} />
-        <Route path="/news/edit/:id" element={<UpdateNews />} />
+        <Route path="/view/:id" element={<ViewNews />} />
+        <Route path="/new" element={<AddNews />} />
+        <Route path="/edit/:id" element={<UpdateNews />} />
         {/* <Route path="/gallery/:id" element={<Gallery />} /> */}
       </Routes>
     </Router>

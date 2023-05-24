@@ -111,18 +111,11 @@ const AddNews = () => {
               onChange={(e) => handleInputChange(e)}
               name="category"
             >
-              <option value={"sosial"}>Sosial</option>
-              <option value={"bisnis"}>Bisnis</option>
-              <option value={"sharing"}>Sharing</option>
-              <option value={"edukasi"}>Edukasi</option>
-              <option value={"lifestyle"}>Lifestyle</option>
-              <option value={"world"}>World</option>
-              <option value={"foods"}>Foods</option>
-              <option value={"technology"}>Technology</option>
-              <option value={"sports"}>Sports</option>
-              <option value={"travel"}>Travel</option>
-              <option value={"music"}>Music</option>
-              <option value={"health"}>Health</option>
+              <option value={"football"}>Football</option>
+              <option value={"volly"}>Volly</option>
+              <option value={"badminton"}>Badminton</option>
+              <option value={"basket"}>Basket</option>
+              
             </Select>
           </FormControl>
           <FormControl mt={4}>
