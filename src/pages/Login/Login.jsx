@@ -41,7 +41,7 @@ const Login = () => {
         duration: 1500,
         isClosable: true,
       });
-      navigate("/news");
+      navigate("/");
     } catch (error) {
       toast({
         title: "Login credentials invalid.",
