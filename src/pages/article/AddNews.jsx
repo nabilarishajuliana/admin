@@ -59,7 +59,7 @@ const AddNews = () => {
           duration: 3000,
           isClosable: true,
         });
-        navigate("/news");
+        navigate("/");
       });
     } catch (error) {
       toast({
