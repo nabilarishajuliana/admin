@@ -92,7 +92,7 @@ const News = () => {
       <div className="container p-2 mx-auto sm:p-4">
         <h2 className="mb-4 text-2xl font-semibold leading-tight">Data News</h2>
         <Link
-          to={"/news/new"}
+          to={"/new"}
           className="px-5 py-2 rounded-md bg-green-700 text-white text-md font-medium tracking-wider"
         >
           Tambah
@@ -132,13 +132,13 @@ const News = () => {
                       <Td>{item.category}</Td>
                       <Td>{item.author}</Td>
                       <Td>
-                        <Link to={"/news/view/" + item._id}>
+                        <Link to={"/view/" + item._id}>
                           <Button colorScheme="blue" type="button" mx={2}>
                             <ViewIcon />
                           </Button>
                         </Link>
 
-                        <Link to={"/news/edit/" + item._id}>
+                        <Link to={"/edit/" + item._id}>
                           <Button colorScheme="green" type="button" mx={2}>
                             <EditIcon />
                           </Button>
