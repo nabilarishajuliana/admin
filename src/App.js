@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Dashboard />} />
+        {/* <Route path="/" element={<Dashboard />} /> */}
         <Route path="/login" element={<Login />} />
-        <Route path="/news" element={<News />} />
+        <Route path="/" element={<News />} />
         <Route path="/news/view/:id" element={<ViewNews />} />
         <Route path="/news/new" element={<AddNews />} />
         <Route path="/news/edit/:id" element={<UpdateNews />} />
