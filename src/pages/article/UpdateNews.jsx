@@ -92,7 +92,7 @@ const UpdateNews = () => {
           Update News
         </h2>
         <Link
-          to={"/news"}
+          to={"/"}
           className="px-5 py-2 rounded-md bg-green-700 text-white text-md font-medium tracking-wider"
         >
           Kembali

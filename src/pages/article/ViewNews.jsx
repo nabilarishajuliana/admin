@@ -29,7 +29,7 @@ const ViewNews = () => {
         {data && (
           <div className="max-w-4xl px-6 py-16 mx-auto space-y-12">
             <article className="space-y-8 text-gray-900">
-              <Link to={"/news"} className={"underline text-blue-500"}>
+              <Link to={"/"} className={"underline text-blue-500"}>
                 Kembali
               </Link>
               <div className="space-y-6">
